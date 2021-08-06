@@ -1,0 +1,20 @@
+@keyframes mover{
+    0%{
+        transform:translateX(0px);
+    }
+    50%{
+        transform:translateX(150px);
+    }
+    100%{
+        transform:translateX(0px) ;
+    }
+}
+
+@keyframes rodar {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

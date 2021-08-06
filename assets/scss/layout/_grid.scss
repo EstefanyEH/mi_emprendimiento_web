@@ -1,0 +1,39 @@
+.container_section{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 49vw 49vw;
+    grid-template-rows: 1fr;
+}
+
+.section__1{
+    grid-column: 1/2 ;
+    grid-row: 1/2;
+
+}
+
+.section__2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+@media (max-width:576px){
+    
+    .container_section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .section__1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .section__2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+
+    
+}
